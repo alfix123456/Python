@@ -1,0 +1,78 @@
+git init
+git add <file>
+git status
+git commit
+
+git push
+git pull
+git clone
+
+git --version
+
+
+------------
+touch index.html
+touch app.js
+
+git init
+git config --global user.name "Javat Javatchian"
+git config --global user.email "a@yahoo.com"
+
+git add index.html
+git status
+
+git rm --cached index.html
+git status
+
+git add *.html
+git status
+
+git add .
+git status
+
+
+after doing any changes you have to add the files again
+git add .
+
+git commit
+i
+initial commit
+esc
+:wq
+
+git commit -m 'Changed APP.JS'
+git commit -m 'initial commit'
+
+touch .gitignore ---------> add anyfile that you dont want to commit to this file
+
+git branch LOGIN
+git checkout LOGIN
+touch login.html
+git add all
+git commit -m LOGINFORM
+git checkout master
+
+git merge login
+i
+ADDED LOGIN
+esc :wq
+-----------------------
+Remote Repository
+
+git remote
+git init
+git add readme.txt
+git commit -m "first commit"
+git remote add origin https://
+git push -u origin master
+
+git pull
+
+-----
+touche readme.md
+git add readme.md
+git commit -m "added readme"
+git push
+------
+clone 
+git clone https://....git
