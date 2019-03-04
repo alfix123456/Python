@@ -1,9 +1,14 @@
-name=input("Insert Your name: ")
-color=input("What color do you like {} ? ".format(name))
-print(name," Likes ",color)
+degree=int(input("The weather degree: "))
 
-"""
-person = input('Enter your name: ')
-greeting = 'Hello, {}!'.format(person)
-print(greeting)
-"""
+if degree<=0:
+    weather_is_bad=True
+else:
+    weather_is_good=True
+
+if weather_is_good:
+    print("the weather is Good today")
+else :
+    print("the Weather is Bad today")
+
+print("Enjoy your day")
+
