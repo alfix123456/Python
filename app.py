@@ -1,14 +1,6 @@
-degree=int(input("The weather degree: "))
-
-if degree<=0:
-    weather_is_bad=True
-else:
-    weather_is_good=True
-
-if weather_is_good:
-    print("the weather is Good today")
-else :
-    print("the Weather is Bad today")
-
-print("Enjoy your day")
-print("git test")
+height_of_triangle=int(input("Enter the Height of triangle: "))
+i=0
+while i<=height_of_triangle:
+    print("*"*i)
+    i=i+1
+print("done")
