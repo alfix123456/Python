@@ -15,5 +15,3 @@ while True:
         break
     else:
         print("Sorry i don't understand that!")
-
-'''This is a description test
